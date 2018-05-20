@@ -32,38 +32,12 @@ header {
 .container-fluid {
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 5%; }
-  .container-fluid .title-project {
-    margin-bottom: 3%; }
 
 .card-full {
-  margin-bottom: 5%; }
-
-.img-fluid {
-  max-width: 300px;
-  max-height: 300px;
-  padding-top: 0px;
-  padding-left: 10px; }
-
-.contact-info {
-  margin-top: 1.5%;
-  padding: 5px; }
-
-hr {
-  border: 5px solid;
-  width: 100%; }
-
-.title-contact {
-  margin-top: 0%;
-  margin-bottom: 3%; }
-
-footer {
-  border-top: 5px solid;
-  border-bottom: 5px solid;
-  min-height: 200px;
-  width: 100%;
-  background-color: #A97439; }
+  margin-top: 15% !important;
+  margin-bottom: 15% !important; }
 
 .card-body {
   margin: 0 !important;
@@ -73,17 +47,5 @@ footer {
 .card-footer .row div button {
   height: 50px;
   width: 100%; }
-
-hr {
-  border: none;
-  border-top: medium double grey;
-  color: grey;
-  text-align: center; }
-  hr:after {
-    background: white;
-    content: "\0025BC";
-    font-size: 1.7em;
-    position: relative;
-    top: -.65em; }
 
 /*# sourceMappingURL=style.css.map */
