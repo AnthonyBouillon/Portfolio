@@ -1,0 +1,73 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+// Lien du menu
+nav {
+    ul {
+        li {
+            a {
+                color: greenyellow;
+                font-weight: bold;
+                &:hover {
+                    color: orange;
+                }
+            }
+        }
+    }
+}
+
+// Titre principal
+header {
+    h1 {
+        padding: 50px;
+        color: black;
+        min-height: 150px;
+        font-weight: bold;
+        font-family: 'Conv_Drifttype', 'Bungee Inline', cursive;
+    }
+    // Image responsive, tout support
+    background-image: url("http://indiana-jeans.com/wp-content/uploads/2013/02/Western-Romance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+// Police
+@font-face {
+    font-family: 'Conv_Drifttype';
+    src: url('../fonts/Drifttype.eot');
+    src: local('☺'), url('../fonts/Drifttype.woff') format('woff'), url('../fonts/Drifttype.ttf') format('truetype'), url('../fonts/Drifttype.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Ajoute une margin intérieur au corp de la page
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+// Image de la carte
+.card-body {
+    margin: 0!important;
+    padding: 0!important;
+    background-color: black;
+}
+
+// Les deux boutons de la carte
+.card-footer {
+    .row {
+        div {
+            button {
+                height: 50px;
+                width: 100%;
+            }
+        }
+    }
+}
