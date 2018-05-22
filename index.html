@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +10,6 @@
         <link rel="stylesheet" type="text/css" href="Public/css/style.css">
         <title>Portfolio d'un Développeur web junior</title>
     </head>
-
     <body>
         <header>
             <h1 class="text-center" id="title-h1">Dévelopeur web junior | Mes projets personnels</h1>
@@ -97,7 +95,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="row">
                 <!-- Première carte -->
                 <div class="col-lg-4 card-full card-full">
@@ -121,7 +118,7 @@
                     </div>
                 </div>
                 <!-- Deuxième carte -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 card-full">
                     <div class="card text-center">
                         <div class="card-header">
                             <h2>Titre</h2>
@@ -165,68 +162,63 @@
                 <hr id="hr"/>
                 <!-- / DIV ROW -->
             </div>
-
-            <h2 class="text-center title-contact" id="contact">Contactez-moi !</h2>
+            <h2 class="text-center title-contact" id="contact">CONTACTEZ-MOI !</h2>
             <div class="row">
-                <div class="col-xl-6">
+                <!-- FORMULAIRE -->
+                <div class="col-md-6 col-lg-6 col-xl-5 offset-xl-1 form-full">
                     <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <div class="row">
+                            <div class="col-9 col-md-9 col-lg-9 col-xl-9">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Nom</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ecrivez votre nom de famille">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Prénom</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ecrivez votre Prénom">
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-3 col-lg-3 col-xl-3">
+                                <img src="Public/images/img-contact-6.png" class="img-fluid" />
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Example select</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ecrivez votre message"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">Example multiple select</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Envoyez</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-xl-6 contact-info">
+                <!-- RECHERCHE MORT OU VIF -->
+                <div class="col-6 col-md-6 col-lg-5 offset-lg-1 col-xl-5 contact-info">
                     <div class="west">
                         <h1>Wanted</h1>
                         <h2>Alive or alive</h2>
                         <hr />
                         <img src="https://cdn.dribbble.com/users/112117/screenshots/3792149/avatar-dribbble_1x.png" alt="..." class="img-thumbnail">
                         <h2>$ Contract reward</h2>
-                        <hr />
+                        <hr /><br/>
                         <p>For job with the enterprise</p>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- FOOTER -->
         <footer class="container-fluid">
             <div class="row">
-                <div class="col-xl-4">
-                    <img src="https://www.siteground.com/blog/wp-content/uploads/2014/05/cowboy-coder.png" class="img-fluid" alt="Responsive image">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                    <img src="Public/images/img-footer.png" class="img-fluid" alt="Image disparu X(">
                 </div>
-                <div class="col-xl-3 footer-text-full">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 footer-text-full">
                     <h3 id="footer-title">A propos</h3>
-                    <p id="footer-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequatur ut quas nesciunt voluptate ex explicabo illum repellat, veritatis qui! Provident et mollitia labore, corporis deleniti quidem optio nisi reprehenderit!</p>
+                    <p id="footer-paragraph">Je m'apelle Anthony Bouillon, 23 ans, j'ai obtenu le titre professionnel "Développeur Logiciel" de niveau III, et je souhaite faire une licence pour le titre de "Concepteur Développeur Informatique" en contrat de professionnalisation.<br/>Vous pouvez trouver mon CV numérique via ce lien : <a href="http://www.anthony-bouillon.fr/">http://www.anthony-bouillon.fr/</a></p>
                 </div>
-                <div class="col-xl-3 offset-xl-1 footer-icon-full">
-                    <i class="fab fa-github" aria-hidden="true"></i>
-                    <i class="fab fa-linkedin"></i>
-                    <i class="fab fa-twitter"></i>
+                <div class="col-11 offset-1 col-sm-10 offset-sm-2 col-md-12 col-lg-12 col-xl-3 offset-xl-1 footer-icon-full">
+                    <i class="fab fa-github" aria-hidden="true" title="Profil Github"></i>
+                    <i class="fab fa-linkedin" title="Profil Linkedin"></i>
+                    <i class="fab fa-twitter" title="Profil Twitter"></i>
                 </div>
             </div>
         </footer>
